@@ -1,0 +1,5 @@
+name: CMClientApiExample
+main: pl.cmclient.example.BukkitPlugin
+version: 1.0
+authors: [kazuko, kuezese]
+depend: [CMClientApi]
