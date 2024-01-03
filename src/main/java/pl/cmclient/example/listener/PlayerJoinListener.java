@@ -19,7 +19,7 @@ public class PlayerJoinListener implements Listener {
         this.plugin.getServer().getScheduler().runTaskLaterAsynchronously(this.plugin, () -> {
             if (this.plugin.getApi().getVerified().contains(event.getPlayer().getName())) {
                 event.getPlayer().sendTitle(ChatHelper.color("&a✓ &eCMClient"),
-                        ChatHelper.color("&a✓ &7Thanks you for using the &eCMClient&7!"));
+                        ChatHelper.color("&a✓ &7Thank you for using the &eCMClient&7!"));
             }
         }, 25L);
     }
